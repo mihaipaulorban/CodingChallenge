@@ -1,0 +1,78 @@
+* {
+  text-align: center;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-style:normal
+}
+
+/* logo e titolo */
+img {
+    width: 25%;
+}
+
+header > h1 {
+    color: rgb(27, 217, 43);
+}
+
+/* rettangolo trasparente grigio */
+.grayback {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.376);
+    width: 60%;
+    margin: 2%;
+    border-radius: 20px;
+    padding: 2% 3%;
+}
+
+/* barra di navigazione */
+nav {
+    display: inline-block;
+    background-color: rgb(27, 217, 43);
+    width: 80%;
+    margin:auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+/* posizione monopattino e carica */
+#decentered {
+    text-align: left;
+    padding: 2% 9%;
+    margin: auto;
+    line-height: 0.4;
+}
+#decentered p {
+    text-align: left;
+    color: white;
+}
+
+main>span {
+    font-size: 25px;
+    color: white;
+}
+
+.yellowbar {
+    width: 300px;
+    height: 30px;
+    background-color: rgb(255, 205, 22);
+    border-radius: 10px;
+}
+
+.greenbar {
+    width: 500px;
+    height: 30px;
+    background-color: rgb(8, 205, 28);
+    border-radius: 10px;
+}
+
+.redbar {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(239, 38, 3);
+    border-radius: 10px;
+}
